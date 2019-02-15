@@ -1,0 +1,13 @@
+Package: seux
+Title: Infer the extinction of undiscovered species
+Version: 0.1.0
+Authors@R: person("Nadiah", "Kristensen", email = "nadiah@nadiah.org", role = c("aut", "cre"))
+Description: Infers the extinction of undiscovered species using the SEUX model. The model
+    takes as an input the years of first and last detections of species within a taxonomic group
+    (e.g. from herbarium data), and assumes that the probability of extinction in discovered
+    species is the same as that in undiscovered species. See Chisholm et al. (2016) for details.
+Depends: R (>= 3.4.4)
+License: CC0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1.9000
