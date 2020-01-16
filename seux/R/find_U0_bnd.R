@@ -214,8 +214,9 @@ find_U0_bnd <- function(midP_fnc, alpha, S0, S1, U1, d0, impossibleFlag = FALSE)
 
         U0_bnd <- U0_lo
 
-        # Check if we've moved out fo the impossible region
+        # Check if we've moved out of the impossible region
         if (U0_bnd > min_poss_U0 ) { impossibleFlag <- FALSE }
+        # note that, if we went in with impossibleFlag == True, and U0_bnd == min_poss_U0, then we remain impossibleFlag == True
 
     }
 
